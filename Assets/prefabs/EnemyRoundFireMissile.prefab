@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5167498942800880026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645345657061773269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec6d2332d05108f47b57347869dacf02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boom_radius: 10
+  demage: 15
+  force: 15
+  lifetime: 4
+  boom_sound: {fileID: 4028346160546683183}
+  p_boom: {fileID: 7819351962989593512}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  obstaclesLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!1001 &6756910394618743024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3713637371919999290, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713637371919999290, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713637371919999290, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 267.28073
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 260.4366
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7072302
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7069834
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585262089783610965, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7647905229258920415, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1fd31868d68903d4f9e2c4a3b7ef98f3, type: 3}
+    - target: {fileID: 7647905229258920415, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021896905796290341, guid: efed78cf8e84b244c908b4a96d3d519b,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyRoundFireMissile
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6082296121056528038, guid: efed78cf8e84b244c908b4a96d3d519b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: efed78cf8e84b244c908b4a96d3d519b, type: 3}
+--- !u!1 &3645345657061773269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8021896905796290341, guid: efed78cf8e84b244c908b4a96d3d519b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6756910394618743024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &4028346160546683183 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7647905229258920415, guid: efed78cf8e84b244c908b4a96d3d519b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6756910394618743024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7819351962989593512 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3550724480405506904, guid: efed78cf8e84b244c908b4a96d3d519b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6756910394618743024}
+  m_PrefabAsset: {fileID: 0}
